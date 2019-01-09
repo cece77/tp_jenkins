@@ -61,6 +61,8 @@ node {
        echo " voici le username : $DEMO_USERNAME "
        echo " voici le password : $DEMO_PASS "
        echo " voici le fichier des mdp : $SECRET_FILE"
+      sh " cp $SECRET_FILE $WORKSPACE"
+      sh "ls -l"
     }
   } // end withCredential, les variables ne sont plus accessibles après
 }
