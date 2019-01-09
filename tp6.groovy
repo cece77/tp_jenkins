@@ -1,4 +1,4 @@
-//
+  //
 // 1 - Variable d'environnement
 //
 node {
@@ -57,7 +57,9 @@ node {
     ]){
 
       // Affichage des variables :
- 
+       echo " voici l'ID credentials $missing_credentials "
+       echo " voici le username : $DEMO_USERNAME "
+       echo " voici le password : $DEMO_PASS "
     }
   } // end withCredential, les variables ne sont plus accessibles après
 }
