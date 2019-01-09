@@ -1,4 +1,4 @@
-  //
+//
 // 1 - Variable d'environnement
 //
 node {
@@ -51,7 +51,7 @@ node {
           usernameVariable: "DEMO_USERNAME",
           passwordVariable: "DEMO_PASS"
       ),
-      file(
+      file([
         credentialsId: 'missing_secret_file',
         variable: 'SECRET_FILE')
     ]){
