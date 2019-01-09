@@ -47,12 +47,12 @@ node {
   stage('3- Récupération des crédentials'){
     withCredentials([
       usernamePassword(
-          credentialsId: 'missing_credential',
+          credentialsId: '4bda743c-53e6-4870-85c9-2d3e320263e3',
           usernameVariable: "DEMO_USERNAME",
           passwordVariable: "DEMO_PASS"
       ),
       file(
-        credentialsId: 'missing_secret_file',
+        credentialsId: '7bcfc4b3-e6a1-4558-af20-4e3dd418599b',
         variable: 'SECRET_FILE')
     ]){
 
