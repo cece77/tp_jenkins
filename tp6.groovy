@@ -34,7 +34,7 @@ node {
 
     println "Print default => " + params.missing_param
     println "Print default => " + value
-    println "Print upper case value =>  + value_upper"
+    println "Print upper case value => " + $value_upper
 
   }
 }
